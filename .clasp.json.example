@@ -1,0 +1,5 @@
+{
+  "scriptId": "VOTRE_SCRIPT_ID",
+  "rootDir": "src",
+  "scriptExtensions": [".gs", ".js"]
+}

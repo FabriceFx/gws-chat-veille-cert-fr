@@ -1,0 +1,17 @@
+{
+  "timeZone": "Europe/Paris",
+  "runtimeVersion": "V8",
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/script.scriptapp",
+    "https://www.googleapis.com/auth/script.send_mail"
+  ],
+  "urlFetchWhitelist": [
+    "https://cert.cyber.gouv.fr/",
+    "https://www.cert.cyber.gouv.fr/",
+    "https://cert.ssi.gouv.fr/",
+    "https://www.cert.ssi.gouv.fr/",
+    "https://chat.googleapis.com/v1/spaces/"
+  ]
+}

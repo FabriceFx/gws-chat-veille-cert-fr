@@ -1,0 +1,10 @@
+# FR : identifiants clasp et fichiers locaux / EN: clasp credentials and local files
+.clasp.json
+.clasprc.json
+node_modules/
+.DS_Store
+# FR : sorties du banc de test / EN: test bench outputs
+tests/*.html
+# FR : documents internes / EN: internal documents
+cadrage.md
+suivi.json
