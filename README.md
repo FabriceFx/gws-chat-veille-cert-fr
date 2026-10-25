@@ -1,6 +1,7 @@
 # GWS – Chat – Veille CERT-FR dans un espace Google Chat
 
-Dépôt / Repository : [`fabricefx-group/gws-chat-veille-cert-fr`](https://gitlab.com/fabricefx-group/gws-chat-veille-cert-fr)
+Dépôt / Repository : [`fabricefx-group/gws-chat-veille-cert-fr`](https://gitlab.com/fabricefx-group/gws-chat-veille-cert-fr)  
+Wiki : [`fabricefx-group/gws-chat-veille-cert-fr/-/wikis`](https://gitlab.com/fabricefx-group/gws-chat-veille-cert-fr/-/wikis/home)
 
 - [Français](#français)
 - [English](#english)

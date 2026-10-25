@@ -14,6 +14,7 @@ All notable changes to this project will be documented in this file. The format 
 
 #### Ajouté
 - Configuration du pipeline d'intégration continue GitLab CI (`.gitlab-ci.yml`) avec analyse de sécurité statique (SAST), détection automatique de secrets et exécution des 35 tests unitaires du banc.
+- Rédaction et publication du Wiki GitLab technique complet (5 chapitres : architecture, catégorisation CERT-FR, cartes Google Chat, persistance anti-doublon et guide d'exploitation).
 
 #### Modifié
 - Mise à jour des références officielles du dépôt vers GitLab (`fabricefx-group/gws-chat-veille-cert-fr`).
@@ -26,6 +27,7 @@ All notable changes to this project will be documented in this file. The format 
 
 #### Added
 - GitLab CI/CD continuous integration pipeline (`.gitlab-ci.yml`) with static application security testing (SAST), secret detection, and automated execution of the 35 unit test bench.
+- Full technical GitLab Wiki documentation (5 chapters: architecture, CERT-FR categorization, Google Chat cards, de-duplication persistence, and operations guide).
 
 #### Changed
 - Updated official repository references to GitLab (`fabricefx-group/gws-chat-veille-cert-fr`).
