@@ -6,6 +6,32 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## [1.1.0] - 2026-10-25
+
+### Français
+
+> **L'angle coût de l'inaction** : laisser du code de veille et de sécurité sans garde-fous automatisés, c'est risquer qu'une régression silencieuse ou une fuite de secret passe inaperçue jusqu'au jour de l'incident.
+
+#### Ajouté
+- Configuration du pipeline d'intégration continue GitLab CI (`.gitlab-ci.yml`) avec analyse de sécurité statique (SAST), détection automatique de secrets et exécution des 35 tests unitaires du banc.
+
+#### Modifié
+- Mise à jour des références officielles du dépôt vers GitLab (`fabricefx-group/gws-chat-veille-cert-fr`).
+
+---
+
+### English
+
+> **The cost of inaction angle**: Leaving security-critical scripts without automated guardrails means risking silent regressions or leaked secrets until an incident strikes.
+
+#### Added
+- GitLab CI/CD continuous integration pipeline (`.gitlab-ci.yml`) with static application security testing (SAST), secret detection, and automated execution of the 35 unit test bench.
+
+#### Changed
+- Updated official repository references to GitLab (`fabricefx-group/gws-chat-veille-cert-fr`).
+
+---
+
 ## [1.0.0] - 2026-10-24
 
 ### Français

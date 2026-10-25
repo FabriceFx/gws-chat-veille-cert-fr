@@ -1,6 +1,6 @@
 # GWS – Chat – Veille CERT-FR dans un espace Google Chat
 
-Dépôt / Repository : [`FabriceFx/gws-chat-veille-cert-fr`](https://github.com/FabriceFx/gws-chat-veille-cert-fr)
+Dépôt / Repository : [`fabricefx-group/gws-chat-veille-cert-fr`](https://gitlab.com/fabricefx-group/gws-chat-veille-cert-fr)
 
 - [Français](#français)
 - [English](#english)
@@ -92,6 +92,7 @@ cliquable. Tout texte venant du flux est échappé (`&`, `<`, `>`) avant inserti
 | `CHANGELOG.md` | Historique des versions (Keep a Changelog) |
 | `LICENSE` | Licence open source MIT |
 | `.clasp.json.example` | Modèle de configuration clasp sans identifiant |
+| `.gitlab-ci.yml` | Pipeline CI/CD GitLab (tests automatisés, SAST, détection de secrets) |
 
 ### Prérequis
 
@@ -143,7 +144,7 @@ Le déploiement s'effectue via clasp en liant votre propre projet Apps Script (v
 5. **Déploiement.** Cloner le dépôt et déployer avec clasp :
 
    ```bash
-   git clone https://github.com/FabriceFx/gws-chat-veille-cert-fr.git
+   git clone https://gitlab.com/fabricefx-group/gws-chat-veille-cert-fr.git
    cd gws-chat-veille-cert-fr
    clasp push -f        # envoie src/ et le manifeste (remplace le contenu de l'éditeur)
    ```
@@ -320,6 +321,7 @@ summary if any, "Read on CERT-FR" button. The button only exists for an `https` 
 | `CHANGELOG.md` | Version history (Keep a Changelog) |
 | `LICENSE` | Open source MIT License |
 | `.clasp.json.example` | clasp configuration template without credentials |
+| `.gitlab-ci.yml` | GitLab CI/CD pipeline (automated tests, SAST, secret detection) |
 
 ### Prerequisites
 
@@ -369,7 +371,7 @@ Deployment is done via clasp by binding your own Apps Script project (see step 4
 5. **Deployment.** Clone the repository and deploy with clasp:
 
    ```bash
-   git clone https://github.com/FabriceFx/gws-chat-veille-cert-fr.git
+   git clone https://gitlab.com/fabricefx-group/gws-chat-veille-cert-fr.git
    cd gws-chat-veille-cert-fr
    clasp push -f        # sends src/ and the manifest (replaces the editor content)
    ```

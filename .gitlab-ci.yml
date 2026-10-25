@@ -1,0 +1,24 @@
+# Pipeline CI/CD GitLab : validation des tests unitaires, analyse SAST et détection de secrets
+
+stages:
+  - test
+  - secret-detection
+
+include:
+  - template: Security/SAST.gitlab-ci.yml
+  - template: Security/Secret-Detection.gitlab-ci.yml
+
+test:unit:
+  stage: test
+  image: node:20-alpine
+  script:
+    - node tests/banc.js
+
+sast:
+  stage: test
+
+secret_detection:
+  stage: secret-detection
+
+variables:
+  SECRET_DETECTION_ENABLED: 'true'
